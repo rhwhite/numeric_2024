@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Conda environment with Micromamba
-        uses: mamba-org/setup-micromamba@617811f69075e3fd3ae68ca64220ad065877f246
+        uses: mamba-org/setup-micromamba@ab6bf8bf7403e8023a094abeec19d6753bdc143e
         with:
            environment-file: envs/environment-gh-pages.yaml
            environment-name: numeric-gh-pages
