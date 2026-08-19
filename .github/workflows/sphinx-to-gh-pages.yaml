@@ -32,7 +32,7 @@ jobs:
            cache-environment-key: environment-${{ steps.date.outputs.date }}
 
       - name: Sphinx build and deploy
-        uses: uibcdf/action-sphinx-docs-to-gh-pages@ae149a8d88b6b7ce5139a49112140048861a04c5
+        uses: uibcdf/action-sphinx-docs-to-gh-pages@dc3020b423e451c0edbe05ca4ff85b8ae507819f
         with:
           branch: main
           dir_docs: website
